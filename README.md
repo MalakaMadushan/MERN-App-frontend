@@ -93,3 +93,26 @@ This project is a **MERN stack** application designed to provide a user manageme
    git clone <repository-url>
    cd <project-folder>
    ```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Set up the environment variables:
+
+Backend: Configure ``` .env ``` with MongoDB connection string and other required variables.
+Frontend: Update any necessary API endpoint configurations.
+
+4. Run the application locally:
+
+Backend:
+```
+npm run server
+```
+Frontend:
+``` 
+npm start
+```
+5. Access the application:
+
+Navigate to `http://localhost:3000` for the frontend.
+Backend APIs are accessible at `http://localhost:5000/api`
